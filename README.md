@@ -1,6 +1,8 @@
 # nvim-spider 🕷️🕸️
 Use the `w`, `e`, `b` motions like a spider. Move by subwords and skip insignificant punctuation.
 
+This is a fork chrisgrieser/nvim-spider with some changes and additions that were rejected by the author.
+
 Lua implementation of CamelCaseMotion, with extra consideration of punctuation. Works in normal, visual, and operator-pending mode. Supports counts and dot-repeats.
 
 > __Note__  
@@ -103,26 +105,3 @@ In this plugin, such small inconsistencies are deliberately not implemented. Thi
 
 ## Subword Text Object
 This plugins supports `w`, `e`, and `b` in operater-pending mode, but does not include a subword-variant of the `iw`. For a version of `iw` that considers CamelCase, check out the `subword` text object of [nvim-various-textobjs](https://github.com/chrisgrieser/nvim-various-textobjs).
-
-## Credits
-__Thanks__  
-To `@vypxl` and `@ii14` [for figuring out dot-repeatability](https://github.com/chrisgrieser/nvim-spider/pull/4).
-
-<!-- vale Google.FirstPerson = NO -->
-__About Me__  
-In my day job, I am a sociologist studying the social mechanisms underlying the digital economy. For my PhD project, I investigate the governance of the app economy and how software ecosystems manage the tension between innovation and compatibility. If you are interested in this subject, feel free to get in touch.
-
-__Blog__  
-I also occasionally blog about vim: [Nano Tips for Vim](https://nanotipsforvim.prose.sh)
-
-__Profiles__  
-- [reddit](https://www.reddit.com/user/pseudometapseudo)
-- [Discord](https://discordapp.com/users/462774483044794368/)
-- [Academic Website](https://chris-grieser.de/)
-- [Twitter](https://twitter.com/pseudo_meta)
-- [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
-- [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
-
-__Buy Me a Coffee__  
-<br>
-<a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
